@@ -1,0 +1,1193 @@
+{
+  "emails": {
+    "john.doe436@gmail.com": [
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      }
+    ],
+    "ops.alert187@outlook.com": [
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      }
+    ],
+    "finance.bot373@company.com": [
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": false
+      }
+    ],
+    "nina.s69@proton.me": [
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": false
+      }
+    ],
+    "test.mail591@proton.me": [
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      }
+    ],
+    "john.doe697@yahoo.com": [
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-27",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      }
+    ],
+    "finance.bot884@gmail.com": [
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      }
+    ],
+    "alice.m878@corp.com": [
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      }
+    ],
+    "rohit.k790@company.com": [
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      }
+    ],
+    "rohit.k94@corp.com": [
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      }
+    ],
+    "alice.m165@company.com": [
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      }
+    ],
+    "rohit.k666@company.com": [
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Canva2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": false
+      }
+    ],
+    "finance.bot534@yahoo.com": [
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Collection1",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "LinkedIn2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      }
+    ],
+    "ops.alert671@gmail.com": [
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": false
+      },
+      {
+        "breach_name": "Dubsmash2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      }
+    ],
+    "finance.bot985@corp.com": [
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "IP addresses"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Apollo2021",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      }
+    ],
+    "alice.m693@company.com": [
+      {
+        "breach_name": "Evite2019",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords",
+          "Usernames"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "Adobe2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": false
+      }
+    ],
+    "test.mail517@corp.com": [
+      {
+        "breach_name": "Tumblr2013",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Phone numbers"
+        ],
+        "is_verified": true
+      },
+      {
+        "breach_name": "MyFitnessPal2018",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses"
+        ],
+        "is_verified": true
+      }
+    ],
+    "nina.s107@proton.me": [
+      {
+        "breach_name": "Dropbox2012",
+        "breach_date": "2026-02-28",
+        "data_classes": [
+          "Email addresses",
+          "Passwords"
+        ],
+        "is_verified": true
+      }
+    ]
+  }
+}

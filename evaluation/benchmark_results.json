@@ -1,0 +1,89 @@
+{
+  "total_cases": 6,
+  "tp": 10,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "by_case": [
+    {
+      "id": "case_001",
+      "expected": [
+        "EMAIL",
+        "PHONE",
+        "SSN"
+      ],
+      "detected": [
+        "EMAIL",
+        "PHONE",
+        "SSN"
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "id": "case_002",
+      "expected": [
+        "EMAIL",
+        "PAN",
+        "PHONE"
+      ],
+      "detected": [
+        "EMAIL",
+        "PAN",
+        "PHONE"
+      ],
+      "tp": 3,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "id": "case_003",
+      "expected": [
+        "ADDRESS",
+        "IP_ADDRESS"
+      ],
+      "detected": [
+        "ADDRESS",
+        "IP_ADDRESS"
+      ],
+      "tp": 2,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "id": "case_004",
+      "expected": [
+        "CREDIT_CARD"
+      ],
+      "detected": [
+        "CREDIT_CARD"
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "id": "case_005",
+      "expected": [
+        "PHONE"
+      ],
+      "detected": [
+        "PHONE"
+      ],
+      "tp": 1,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "id": "case_006",
+      "expected": [],
+      "detected": [],
+      "tp": 0,
+      "fp": 0,
+      "fn": 0
+    }
+  ]
+}

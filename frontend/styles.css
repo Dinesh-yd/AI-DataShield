@@ -1,0 +1,17 @@
+* { box-sizing: border-box; font-family: Inter, Segoe UI, Arial, sans-serif; }
+body { margin: 0; background: #0b1220; color: #dce3ee; }
+.topbar { padding: 24px 32px; border-bottom: 1px solid #223049; background: #111a2d; }
+.topbar h1 { margin: 0; font-size: 24px; }
+.topbar p { margin: 6px 0 0; color: #8fa1bb; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 16px; padding: 20px; }
+.card { background: #131f34; border: 1px solid #283a5d; border-radius: 12px; padding: 16px; }
+h2 { margin-top: 0; font-size: 18px; }
+label { display: block; margin-top: 8px; margin-bottom: 4px; font-size: 13px; color: #9db0cc; }
+input, textarea, button { width: 100%; border-radius: 8px; border: 1px solid #334a74; background: #0e182b; color: #dce3ee; padding: 10px; margin-top: 8px; }
+button { background: #2563eb; border: none; cursor: pointer; font-weight: 600; }
+button:hover { background: #1d4ed8; }
+pre { background: #0a1220; border: 1px solid #223049; border-radius: 8px; padding: 10px; min-height: 90px; overflow: auto; white-space: pre-wrap; }
+.muted { color: #8ea2bf; font-size: 13px; }
+.alerts { display: flex; flex-direction: column; gap: 8px; }
+.alert-item { border: 1px solid #334a74; border-radius: 8px; padding: 10px; background: #0e182b; }
+.alert-item strong { display: block; margin-bottom: 4px; }

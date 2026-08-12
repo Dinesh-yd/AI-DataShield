@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI DataShield</title>
+  <link rel="stylesheet" href="/frontend/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>AI DataShield</h1>
+    <p>End-to-End Privacy & Breach Intelligence Platform</p>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Session</h2>
+      <label>Email</label>
+      <input id="userEmail" type="email" placeholder="you@company.com" />
+      <label>Name</label>
+      <input id="userName" type="text" placeholder="Your name" />
+      <button id="initSession">Start Session</button>
+      <p id="sessionStatus" class="muted">Not connected</p>
+    </section>
+
+    <section class="card">
+      <h2>PII Text Scan</h2>
+      <textarea id="scanText" rows="7" placeholder="Paste text containing PII..."></textarea>
+      <button id="runTextScan">Scan & Redact</button>
+      <pre id="scanOutput"></pre>
+    </section>
+
+    <section class="card">
+      <h2>PII Image Scan (OCR)</h2>
+      <input id="scanImage" type="file" accept="image/*" />
+      <button id="runImageScan">Scan Image</button>
+      <pre id="imageOutput"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Breach Monitor</h2>
+      <button id="checkBreach">Check HaveIBeenPwned</button>
+      <pre id="breachOutput"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Dashboard</h2>
+      <button id="refreshDashboard">Refresh Summary</button>
+      <pre id="dashboardOutput"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Real-time Alerts</h2>
+      <div id="alerts" class="alerts"></div>
+    </section>
+  </main>
+
+  <script src="/frontend/app.js"></script>
+</body>
+</html>

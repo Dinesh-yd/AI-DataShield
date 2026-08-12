@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case_001",
+    "text": "Contact john.doe@gmail.com at 555-123-4567 for SSN 123-45-6789.",
+    "expected": ["EMAIL", "PHONE", "SSN"]
+  },
+  {
+    "id": "case_002",
+    "text": "Employee demo.user@company.com uses number +1 415 555 0132 and PAN ABCDE1234F.",
+    "expected": ["EMAIL", "PHONE", "PAN"]
+  },
+  {
+    "id": "case_003",
+    "text": "Ship to 221 Baker Street and whitelist 192.168.1.45.",
+    "expected": ["ADDRESS", "IP_ADDRESS"]
+  },
+  {
+    "id": "case_004",
+    "text": "Card number 4111 1111 1111 1111 is for test only.",
+    "expected": ["CREDIT_CARD"]
+  },
+  {
+    "id": "case_005",
+    "text": "Text me at 555-0199 tomorrow.",
+    "expected": ["PHONE"]
+  },
+  {
+    "id": "case_006",
+    "text": "No personal identifiers here.",
+    "expected": []
+  }
+]
