@@ -6,55 +6,384 @@
   <title>AI DataShield</title>
   <link rel="stylesheet" href="/frontend/styles.css" />
 </head>
+
 <body>
+
+  <!-- TOP NAVIGATION -->
   <header class="topbar">
-    <h1>AI DataShield</h1>
-    <p>End-to-End Privacy & Breach Intelligence Platform</p>
+    <div class="brand">
+      <div class="brand-icon">🛡</div>
+      <div>
+        <h1>AI DataShield</h1>
+        <p>Privacy & Breach Intelligence Platform</p>
+      </div>
+    </div>
+
+    <div class="top-actions">
+      <div id="connectionPill" class="status-pill">
+        <span class="status-dot"></span>
+        <span>Checking connection...</span>
+      </div>
+
+      <button id="themeToggle" class="theme-btn" type="button">
+        ☀
+      </button>
+    </div>
   </header>
 
-  <main class="grid">
-    <section class="card">
-      <h2>Session</h2>
-      <label>Email</label>
-      <input id="userEmail" type="email" placeholder="you@company.com" />
-      <label>Name</label>
-      <input id="userName" type="text" placeholder="Your name" />
-      <button id="initSession">Start Session</button>
-      <p id="sessionStatus" class="muted">Not connected</p>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">AI-POWERED SECURITY</div>
+
+      <h2>
+        Protect your
+        <span>Digital Identity.</span>
+      </h2>
+
+      <p>
+        Detect sensitive information, identify breach exposure,
+        calculate risk and protect your data through one security platform.
+      </p>
+
+      <div class="hero-buttons">
+        <button id="heroStart" class="primary-btn" type="button">
+          Start Protection →
+        </button>
+
+        <button id="heroStatus" class="secondary-btn" type="button">
+          System Status
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-shield">
+      <div class="shield-ring">
+        <div class="shield">🛡</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- METRICS -->
+  <section class="metrics">
+
+    <div class="metric-card">
+      <div class="metric-label">PII DETECTED</div>
+      <div id="metricPii" class="metric-value">0</div>
+      <div class="metric-sub">Sensitive entities</div>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-label">RISK SCORE</div>
+      <div id="metricRisk" class="metric-value">0</div>
+      <div id="metricRiskLabel" class="metric-sub">No assessment</div>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-label">BREACH EXPOSURE</div>
+      <div id="metricBreaches" class="metric-value">0</div>
+      <div class="metric-sub">Exposure events</div>
+    </div>
+
+    <div class="metric-card">
+      <div class="metric-label">PROTECTION</div>
+      <div id="metricProtection" class="metric-value">100%</div>
+      <div class="metric-sub">Data protection</div>
+    </div>
+
+  </section>
+
+
+  <!-- MAIN WORKSPACE -->
+  <main id="workspace" class="workspace">
+
+
+    <!-- SESSION -->
+    <section class="panel session-panel">
+
+      <div class="section-header">
+        <div>
+          <div class="section-number">01 / IDENTITY</div>
+          <h2>Security Session</h2>
+          <p>Initialize your protected workspace.</p>
+        </div>
+
+        <div class="panel-icon">◉</div>
+      </div>
+
+      <div class="form-grid">
+
+        <div class="form-group">
+          <label for="userEmail">EMAIL ADDRESS</label>
+          <input
+            id="userEmail"
+            type="email"
+            placeholder="john.doe@gmail.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="userName">NAME</label>
+          <input
+            id="userName"
+            type="text"
+            placeholder="Demo User"
+          />
+        </div>
+
+      </div>
+
+      <button id="initSession" class="primary-btn full-btn" type="button">
+        Initialize Secure Session →
+      </button>
+
+      <div id="sessionStatus" class="session-status">
+        <span class="status-dot"></span>
+        Not connected
+      </div>
+
     </section>
 
-    <section class="card">
-      <h2>PII Text Scan</h2>
-      <textarea id="scanText" rows="7" placeholder="Paste text containing PII..."></textarea>
-      <button id="runTextScan">Scan & Redact</button>
-      <pre id="scanOutput"></pre>
+
+    <!-- PII SCANNER -->
+    <section id="scan" class="panel">
+
+      <div class="section-header">
+        <div>
+          <div class="section-number">02 / PRIVACY</div>
+          <h2>PII Text Scanner</h2>
+          <p>Detect and redact sensitive information.</p>
+        </div>
+
+        <div class="panel-icon">⌕</div>
+      </div>
+
+      <div class="scanner-box">
+
+        <label for="scanText">TEXT TO SCAN</label>
+
+        <textarea
+          id="scanText"
+          rows="7"
+          placeholder="Paste text containing PII...
+
+Example:
+Contact john.doe@gmail.com at 555-123-4567 for SSN 123-45-6789."
+        ></textarea>
+
+        <button id="runTextScan" class="primary-btn full-btn" type="button">
+          Scan & Redact →
+        </button>
+
+      </div>
+
+      <div id="scanOutput" class="result-box">
+        <div class="result-placeholder">
+          <span>◌</span>
+          <p>Scan results will appear here</p>
+        </div>
+      </div>
+
     </section>
 
-    <section class="card">
-      <h2>PII Image Scan (OCR)</h2>
-      <input id="scanImage" type="file" accept="image/*" />
-      <button id="runImageScan">Scan Image</button>
-      <pre id="imageOutput"></pre>
+
+    <!-- IMAGE SCANNER -->
+    <section class="panel">
+
+      <div class="section-header">
+        <div>
+          <div class="section-number">03 / OCR</div>
+          <h2>PII Image Scanner</h2>
+          <p>Extract text from images and detect PII.</p>
+        </div>
+
+        <div class="panel-icon">▣</div>
+      </div>
+
+      <div class="upload-box">
+
+        <div class="upload-icon">↑</div>
+
+        <h3>Upload an image</h3>
+
+        <p>
+          Supported formats: JPG, JPEG, PNG
+        </p>
+
+        <input
+          id="scanImage"
+          type="file"
+          accept="image/*"
+        />
+
+      </div>
+
+      <button id="runImageScan" class="primary-btn full-btn" type="button">
+        Scan Image →
+      </button>
+
+      <div id="imageOutput" class="result-box">
+        <div class="result-placeholder">
+          <span>◌</span>
+          <p>OCR results will appear here</p>
+        </div>
+      </div>
+
     </section>
 
-    <section class="card">
-      <h2>Breach Monitor</h2>
-      <button id="checkBreach">Check HaveIBeenPwned</button>
-      <pre id="breachOutput"></pre>
+
+    <!-- BREACH MONITOR -->
+    <section id="breach" class="panel breach-panel">
+
+      <div class="section-header">
+        <div>
+          <div class="section-number">04 / INTELLIGENCE</div>
+          <h2>Breach Monitor</h2>
+          <p>Check your email for known breach exposure.</p>
+        </div>
+
+        <div class="panel-icon">◈</div>
+      </div>
+
+      <div class="breach-status">
+        <div class="breach-icon">!</div>
+
+        <div>
+          <strong>Exposure Intelligence</strong>
+          <span>Monitor your digital footprint.</span>
+        </div>
+      </div>
+
+      <button id="checkBreach" class="primary-btn full-btn" type="button">
+        Check Breach Exposure →
+      </button>
+
+      <div id="breachOutput" class="result-box">
+        <div class="result-placeholder">
+          <span>◌</span>
+          <p>Breach information will appear here</p>
+        </div>
+      </div>
+
     </section>
 
-    <section class="card">
-      <h2>Dashboard</h2>
-      <button id="refreshDashboard">Refresh Summary</button>
-      <pre id="dashboardOutput"></pre>
+
+    <!-- DASHBOARD -->
+    <section id="overview" class="panel dashboard-panel">
+
+      <div class="section-header">
+        <div>
+          <div class="section-number">05 / ANALYTICS</div>
+          <h2>Security Dashboard</h2>
+          <p>Overview of your protection status.</p>
+        </div>
+
+        <div class="panel-icon">◫</div>
+      </div>
+
+      <div class="risk-display">
+
+        <div class="risk-gauge">
+
+          <svg viewBox="0 0 200 110">
+
+            <path
+              class="gauge-bg"
+              d="M 25 100 A 75 75 0 0 1 175 100"
+            />
+
+            <path
+              id="gaugeFill"
+              class="gauge-fill"
+              d="M 25 100 A 75 75 0 0 1 175 100"
+            />
+
+          </svg>
+
+          <div id="gaugeScore" class="gauge-score">
+            0
+          </div>
+
+          <div class="gauge-label">
+            RISK SCORE
+          </div>
+
+        </div>
+
+        <div class="risk-info">
+
+          <div class="section-number">CURRENT STATUS</div>
+
+          <h3 id="riskTitle">
+            No Assessment
+          </h3>
+
+          <div id="riskBadge" class="risk-badge">
+            Not assessed
+          </div>
+
+          <div id="historyHint" class="history-hint">
+            Run a scan to generate your security assessment.
+          </div>
+
+        </div>
+
+      </div>
+
+      <button id="refreshDashboard" class="secondary-btn full-btn" type="button">
+        Refresh Dashboard ↻
+      </button>
+
+      <div id="historyList" class="history-list"></div>
+
+      <div id="dashboardOutput" class="result-box">
+        <div class="result-placeholder">
+          <span>◌</span>
+          <p>Dashboard data will appear here</p>
+        </div>
+      </div>
+
     </section>
 
-    <section class="card">
-      <h2>Real-time Alerts</h2>
-      <div id="alerts" class="alerts"></div>
+
+    <!-- ALERTS -->
+    <section id="alertsPanel" class="panel alerts-panel">
+
+      <div class="section-header">
+
+        <div>
+          <div class="section-number">06 / ALERTS</div>
+          <h2>Real-Time Alerts</h2>
+          <p>Security notifications from your monitoring system.</p>
+        </div>
+
+        <button id="clearAlerts" class="small-btn" type="button">
+          Clear
+        </button>
+
+      </div>
+
+      <div id="alerts" class="alerts">
+
+        <div class="alert-empty">
+          <span>✓</span>
+          <p>No active alerts</p>
+        </div>
+
+      </div>
+
     </section>
+
   </main>
 
+
+  <!-- TOAST -->
+  <div id="toast" class="toast"></div>
+
+
   <script src="/frontend/app.js"></script>
+
 </body>
 </html>
